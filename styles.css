@@ -1,0 +1,42 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 5fr 6fr;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.colors-mark div:nth-child(2),
+.colors-mark div:nth-last-child(0n + 2) {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}
+
+.colors-mark div {
+  height: 50px;
+  width: 50px;
+}
+
+.personal-data > div {
+  background-color: pink;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location-icon,
+i {
+  color: rgb(138, 8, 30);
+  font-size: 24px; /* Change this to whatever size you want */
+}
+
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
