@@ -4,72 +4,120 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>tarjeta personal</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <div class="colors-mark">
-        <div></div>
-        <div>color</div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div>color</div>
-        <div></div>
-      </div>
-
-      <div class="info">
-        <i class="fa-solid fa-house"></i>
-
-        <h1 class="name-company">Manaomi Software</h1>
-        <h2 class="sub-title">We know how to do it best</h2>
-      </div>
-
-      <div class="personal-data">
+    <header>
+      <nav class="nav-up">
         <div>
-          <i class="fa-solid fa-circle-user"></i>
-          <div>
-            <h3>Maria Tarima</h3>
-
-            <h4>Software fullstack ingenier</h4>
-          </div>
+          <a
+            href="https://api.whatsapp.com/send/?phone=5491130912600&text=%EF%BF%BD+Me+gustar%C3%ADa+m%C3%A1s+informaci%C3%B3n+de+las+clases+del+m%C3%A9todo+de+Bronnikov+%EF%BF%BD&type=phone_number&app_absent=0"
+            ><i class="fa fa-whatsapp medium-icon"></i
+          ></a>
+          <p>Send us a whatsapp</p>
         </div>
 
-        <div>
-          <i class="fa-solid fa-phone"></i>
-          <div>
-            <div>54 11 30302626</div>
+        <div><p>Free delivery on your first kit – Please See Details</p></div>
 
-            <div>54 44335552</div>
-          </div>
+        <div class="setting-currency-language">
+          <ul>
+            <li>
+              Settings
+              <ul class="setting">
+                <li>Account</li>
+                <li>Order</li>
+              </ul>
+            </li>
+            <li>
+              USD$
+              <ul class="currency">
+                <li>USD</li>
+                <li>Pesos Argentinos</li>
+              </ul>
+            </li>
+            <li>
+              <span class="material-symbols-outlined small-icon">
+                language
+              </span>
+              English
+              <ul class="language">
+                <li>English</li>
+                <li>Spanish</li>
+              </ul>
+            </li>
+          </ul>
         </div>
+      </nav>
 
-        <div>
-          <i class="fa-solid fa-envelope"></i>
-          <div>
-            <div>manaomi.masha@gmail.com</div>
-
-            <div>mariatarima.com</div>
-          </div>
+      <nav class="nav-brand">
+        <div class="call">
+          <span class="material-symbols-outlined"> phone_in_talk </span>
+          <p>Call us</p>
         </div>
+        <div class="brand-name">Manaomi Cosmetics</div>
+        <div class="nav-cart">
+          <span class="material-symbols-outlined"> shopping_bag </span>
+          <p>Cart</p>
+        </div>
+      </nav>
 
-        <div class="data-container">
-          <i class="fa-solid fa-location-dot location-icon"></i>
-          <div>
-            <div>Vicente Lopez, Buenos Aires</div>
+      <nav class="nav-home">
+        <ul class="nav-central">
+          <li>
+            Home
+            <ul class="dropdown">
+              <li>Natural lipstick</li>
+              <li>Vegan Line</li>
+            </ul>
+          </li>
 
-            <div>Country: Argentina</div>
-          </div>
+          <li>About us</li>
+          <li>
+            Shop
+            <ul class="dropdown">
+              <li>Balsame</li>
+              <li>Color</li>
+            </ul>
+          </li>
+          <li>
+            <ul class="dropdown">
+              <li>Health</li>
+              <li>Make up tutorial</li>
+            </ul>
+            Blog
+          </li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+
+      <div class="hero-img">
+        <img
+          src="https://images.unsplash.com/photo-1630499314704-3b53f4d64159?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Beautiful cosmetic product"
+        />
+        <div class="hero-text">
+          <h1>Welcome to Manaomi Cosmetics</h1>
+          <p>Natural beauty for everyone</p>
         </div>
       </div>
-    </main>
+    </header>
+
+    <main></main>
+    <footer></footer>
   </body>
 </html>
