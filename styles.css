@@ -199,7 +199,7 @@ ul {
     height: 5vh;
   }
 
-  /* .hero-text {
+   .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -207,5 +207,5 @@ ul {
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
-  } */
+  } 
 }
