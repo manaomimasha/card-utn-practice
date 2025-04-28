@@ -99,8 +99,14 @@ ul {
 
 /* nav-brand */
 .brand-name {
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-name-title {
+  font-size: 2rem;
 }
 
 .nav-brand {
@@ -199,7 +205,7 @@ ul {
     height: 5vh;
   }
 
-   .hero-text {
+  .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -207,5 +213,19 @@ ul {
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
-  } 
+  }
+
+  .brand-name {
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 250px; /* <-- Fixed width */
+    text-align: center; /* Center text inside */
+  }
+}
+
+.brand-name {
+  min-width: 200px;
+  text-align: center;
 }
