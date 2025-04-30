@@ -98,6 +98,7 @@ ul {
 }
 
 .setting-currency-language ul li,
+.setting-currency-language ul li a,
 .nav-up div {
   display: flex;
 }
