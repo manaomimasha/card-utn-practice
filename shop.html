@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Shop Balsame Manaomi Cosmetics</title>
+    <title>Manaomi Cosmetics</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,97 +15,92 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
       rel="stylesheet"
     />
+    <!-- for icons or cards -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- for whatsapp icon  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./css/shop-balsame.css" />
+    <link rel="stylesheet" href="./css/shop.css" />
   </head>
-
   <body>
-    <nav class="nav-up">
-      <div class="nav-whatsapp">
-        <a
-          href="https://api.whatsapp.com/send/?phone=5491130912600&text=%EF%BF%BD+Me+gustar%C3%ADa+m%C3%A1s+informaci%C3%B3n+de+las+clases+del+m%C3%A9todo+de+Bronnikov+%EF%BF%BD&type=phone_number&app_absent=0"
-          ><i class="fa fa-whatsapp medium-icon"></i
-        ></a>
-        <p>Send us a whatsapp</p>
-      </div>
+    <header>
+      <nav class="nav-up">
+        <div class="nav-whatsapp flex-row-justify">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5491130912600&text=%EF%BF%BD+Me+gustar%C3%ADa+m%C3%A1s+informaci%C3%B3n+%EF%BF%BD&type=phone_number&app_absent=0"
+            ><i class="fa fa-whatsapp medium-icon"></i
+          ></a>
+          <p>Send us a whatsapp</p>
+        </div>
 
-      <div><p>Free delivery on your first kit – Please See Details</p></div>
+        <div class="publicity">
+          <p>Free delivery on your first kit – Please See Details</p>
+        </div>
 
-      <div class="setting-currency-language">
-        <ul>
+        <div class="setting-currency-language">
+          <ul>
+            <li>
+              Settings
+              <ul class="setting">
+                <li>Account</li>
+                <li>Order</li>
+              </ul>
+            </li>
+            <li>
+              USD$
+              <ul class="currency">
+                <li>USD</li>
+                <li>Pesos Argentinos</li>
+              </ul>
+            </li>
+            <li>
+              <span class="material-symbols-outlined small-icon">
+                language
+              </span>
+              English
+              <ul class="language">
+                <li>English</li>
+                <li>Spanish</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav class="nav-brand">
+        <div class="call">
+          <span class="material-symbols-outlined"> phone_in_talk </span>
+          <p>Call us</p>
+        </div>
+        <div class="brand-name">
+          <div class="brand-name-title">Manaomi Cosmetics</div>
+          <!-- <h1></h1> -->
+        </div>
+        <div class="nav-cart">
+          <span class="material-symbols-outlined"> shopping_bag </span>
+          <p>Cart</p>
+        </div>
+      </nav>
+
+      <nav class="nav-home">
+        <ul class="nav-central">
           <li>
-            Settings
-            <ul class="setting">
-              <li>Account</li>
-              <li>Order</li>
-            </ul>
+            <a href="index.html#index">Home</a>
           </li>
-          <li>
-            USD$
-            <ul class="currency">
-              <li>USD</li>
-              <li>Pesos Argentinos</li>
-            </ul>
-          </li>
-          <li>
-            <span class="material-symbols-outlined small-icon"> language </span>
-            English
-            <ul class="language">
-              <li>English</li>
-              <li>Spanish</li>
-            </ul>
-          </li>
+
+          <li><a href="shop.html#shop">Shop</a></li>
+          <li><a href="gallery.html#gallery">Gallery</a></li>
+
+          <li><a href="contact-us.html#contact-us">Contact Us</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
 
-    <nav class="nav-brand">
-      <div class="call">
-        <span class="material-symbols-outlined"> phone_in_talk </span>
-        <p>Call us</p>
-      </div>
-      <div class="brand-name">
-        <div class="brand-name-title">Manaomi Cosmetics</div>
-        <!-- <h1></h1> -->
-      </div>
-      <div class="nav-cart">
-        <span class="material-symbols-outlined"> shopping_bag </span>
-        <p>Cart</p>
-      </div>
-    </nav>
-
-    <nav class="nav-home">
-      <ul class="nav-central">
-        <li>
-          <a href="index.html">Home</a>
-          <ul class="dropdown">
-            <!-- <li>Natural lipstick</li>
-            <li>Vegan Line</li> -->
-          </ul>
-        </li>
-
-        <li class="about-us">About us</li>
-        <li>
-          Shop
-          <ul class="dropdown">
-            <li><a href="shop-balsame.html">Balsame</a></li>
-            <li><a href="shop-color.html">Color</a></li>
-          </ul>
-        </li>
-        <li class="blog">
-          Blog
-          <ul class="dropdown">
-            <li>Health</li>
-            <li>Make up tutorial</li>
-          </ul>
-        </li>
-        <li class="contact-us">Contact Us</li>
-      </ul>
-    </nav>
-    <div class="section-title">
+    <div class="section-title" id="shop">
       <h1>Shop Catalog</h1>
     </div>
     <div class="card-grid">

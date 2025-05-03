@@ -9,7 +9,7 @@
 }
 
 .card {
-  height: 40vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
