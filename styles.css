@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* . (360px, 768px, 1024px) */
+
 /* generals */
 body {
   box-sizing: border-box;
@@ -242,6 +244,7 @@ ul {
     text-align: center;
     color: white;
     font-family: "Poppins", sans-serif;
+    margin: 0;
   }
 
   .brand-name {
@@ -252,15 +255,10 @@ ul {
     width: 342px; /* <-- Fixed width */
     text-align: center; /* Center text inside */
   }
-}
+  .welcome-name-title {
+    width: 355px;
+  }
 
-.brand-name {
-  min-width: 200px;
-  text-align: center;
-}
-
-/* mobile devices  */
-@media (max-width: 600px) {
   .nav-home {
     display: flex;
     flex-direction: column;
@@ -270,22 +268,18 @@ ul {
     height: 5vh;
     font-size: 0.8rem;
   }
-  .nav-home .about-us,
-  .nav-home .blog,
-  .nav-home .contact-us {
-    display: none;
-  }
+
   .nav-brand {
     height: 19vh;
   }
-  .welcome-name-title {
-    width: 355px;
-  }
-  .hero-text {
-    margin: 0;
-  }
 }
-@media (min-width: 660px) {
+
+.brand-name {
+  min-width: 200px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
   .nav-home {
     display: flex;
     flex-direction: column;
@@ -324,14 +318,14 @@ ul {
   }
 
   .hero-text p {
-    margin: 0 auto;
+    margin-left: 0;
   }
   .welcome-name-title {
     width: 550px;
   }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1024px) {
   .brand-name {
     color: blue;
   }
@@ -364,20 +358,8 @@ ul {
   justify-content: center;
 }
 
-.footer-nav {
-  margin-top: 1rem;
-  background-color: black;
-  color: white;
-  height: 30vh;
-}
-
-.last-nav {
-}
-
 footer {
-  /* padding: 2rem; */
   background-color: #f8f9fa;
-  /* font-family: Arial, sans-serif; */
   color: #afa9a9;
   font-size: 0.8rem;
 }
@@ -385,11 +367,15 @@ footer {
 footer nav {
   padding: 1rem;
 }
-/* Grid layout for the main footer nav */
+
 .footer-nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  height: 30vh;
 }
 
 .footer-nav h4 {
@@ -407,7 +393,6 @@ footer nav {
   margin-bottom: 0.4rem;
 }
 
-/* Bottom nav: Made by + payment section */
 .last-nav {
   margin-top: 2rem;
   display: flex;
