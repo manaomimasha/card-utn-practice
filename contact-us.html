@@ -25,6 +25,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    
+    <link rel="icon" type="image/x-icon" href="./assets/fav-iconn.png" />
     <link rel="stylesheet" href="./css/contact-us.css" />
   </head>
   <body>
@@ -90,7 +92,7 @@
       <nav class="nav-home">
         <ul class="nav-central">
           <li>
-            <a href="index.html#index">Home</a>
+            <a href="index.html">Home</a>
           </li>
 
           <li><a href="shop.html#shop">Shop</a></li>
@@ -105,47 +107,73 @@
         <div class="container-form">
 
    <form class="form">
-    <h1>Contact us</h1>
-    <label for="name">Your Name</label>
+    <div class="text-form">
+
+      <h1>Contact us</h1>
+      <div class="input-field">  <label for="name">Your Name</label>
+      <br>
+  
+      <input type="text" id="name" placeholder="Name" >
+  </div>
+     
+     <div class="input-field">  
+        <label for="mail">Email</label> <br>
+  
+   <input type="email" id="mail" name="mail" placeholder="Email"> <br>
+  </div>
+  
+  <div class="input-field">
+
+  <label for="mail">Telefono</label>
+<br>
+  
+   <input type="number" id="phone" name="phone" value="Telephone">
+  
+  </div>
+
+  <div class="input-field">
+
+   <label for="gender">Gender</label>
     <br>
-
-    <input type="text" id="name" name="name" value="name">
-
-   <br>
-  <label for="mail">Email</label>
+  
+   <input type="radio" id="genderfem" name="gender" value="Femenine"> <label for="genderfem">Femenine</label>
+  
   <br>
+  
+  <input type="radio" id="gendermasc" name="gender" value="Masculine"> <label for="gendermasc">Masculine</label>
+  
+ 
+  
+    
+  </div>
 
- <input type="email" id="mail" name="mail" value="Email"> <br>
- <label for="mail">Telefono</label>
+  <div class="input-field">
+
+ 
+  <label for="add">How did you know us</label>
+    <br>
+  
+   <input type="checkbox" id="addsotial" name="sotial" value="Sotial Media"> <label for="addsotial">Sotial Media</label>
+  
   <br>
+  
+  <input type="checkbox" id="addgoogle" name="search" value="Google"> <label for="addgoogle">Google</label>
+     
+  </div>
 
- <input type="number" id="phone" name="phone" value="Telephone">
-<br>
- <label for="gender">Gender</label>
+  <div class="input-field">
+
+    
+  </div>
+<div class="input-field">  <label for="message">Leave your message</label>
   <br>
+  <textarea  id="message" rows="4" placeholder="Your message"></textarea>
+  </div>
 
- <input type="radio" id="genderfem" name="gender" value="Femenine"> <label for="genderfem">Femenine</label>
-
-<br>
-
-<input type="radio" id="gendermasc" name="gender" value="Masculine"> <label for="gendermasc">Masculine</label>
-
-<br>
-
-<label for="add">How did you know us</label>
-  <br>
-
- <input type="checkbox" id="addsotial" name="sotial" value="Sotial Media"> <label for="addsotial">Sotial Media</label>
-
-<br>
-
-<input type="checkbox" id="addgoogle" name="search" value="Google"> <label for="addgoogle">Google</label>
-
-<br>
-<label for="message">Leave your message</label>
-<br>
-<textarea  id="message" rows="4" placeholder="Your message"></textarea>
-<button> Submit</button>
+  
+  <button class="submit-button"> Submit</button>
+  <button class="reset-button"> Reset </button>
+    </div>
 
 </form>
 
