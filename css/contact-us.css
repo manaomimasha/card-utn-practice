@@ -26,15 +26,20 @@ input::placeholder {
 }
 
 button {
-  padding:0.5rem 1rem;
+  padding: 0.5rem 1rem;
   font-family: inherit;
-  color:white;
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-shadow: -0.5px -0.5px 0 black, 0.5px -0.5px 0 black, 0.5px 0.5px 0 black,
+    0.5px 0.5px 0 black;
+  border: 0.1rem solid grey;
 }
 
-.submit-button{ 
-  background-color:blue;
+.submit-button {
+  background-color: rgb(15, 193, 247);
 }
 
-.reset-button{ 
-  background-color:grey;
+.reset-button {
+  background-color: grey;
 }
