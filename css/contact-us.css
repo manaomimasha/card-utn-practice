@@ -20,7 +20,7 @@ form {
 }
 
 input::placeholder {
-  color: rgb(233, 94, 124);
+  color: rgb(197, 197, 197);
   font-size: 0.8rem;
   font-family: inherit;
 }
